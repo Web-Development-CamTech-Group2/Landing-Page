@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    width: 20%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #173f71;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+p.Title {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #173f71;
+    font-size: 50px;
+}
+
+.WelcomePage {
+    display: flex;
+    align-items: center;
+}
+
+.WelcomePage p {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    color: black;
+}
+
+.WelcomePage img {
+    width: 30%;
+    padding-left: 150px;
+    border-radius: 100px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 100px 150px;
+
+}
+
+.profile img.left{
+    width: 15%;
+    border-radius: 10px;
+    margin-right: 100px;
+}
+
+.profile img.right{
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+
+.profile p {
+    font-size: 20px;
+    color: black;
+}
+
+/* #Theary {
+    background: #be2020;
+    
+} */
