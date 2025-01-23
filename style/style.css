@@ -81,6 +81,30 @@ p.Title {
     font-size: 20px;
     color: black;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #173f71;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.social-links li {
+    margin: 0 15px;
+}
 
 /* #Theary {
     background: #be2020;
